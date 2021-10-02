@@ -28,6 +28,7 @@ function changeBg(){
         link.addEventListener("click", e => {
             e.preventDefault();
             container.classList.toggle("active");
+            bar.classList.toggle("active");
         })
     });
 
@@ -38,6 +39,7 @@ function changeBg(){
         screen.addEventListener("click", e => {
             e.preventDefault();
             container.classList.remove("active");
+            bar.classList.remove("active");
         })
     })
 };
